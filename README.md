@@ -8,6 +8,18 @@ Repositorio de ejemplo para el uso de Django en un proyecto de desarrollo web.
 ```bash
 python -m venv venv
 ```
+## Configurar .gitignore
+archivo .gitignore para evitar subir archivos innecesarios al repositorio:
+
+```bash
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.env
+```
 
 ## Activar entorno virtual
 
@@ -122,3 +134,7 @@ python manage.py runserver
 Abre tu navegador y ve a `http://localhost:8000/admin/`. Inicia sesión con el
 superusuario que creaste anteriormente. Deberías ver las opciones para agregar
 autores y libros.
+
+![Texto alternativo](capturas/Captura%20de%20pantalla%202025-04-29%201146150.png)
+
+
